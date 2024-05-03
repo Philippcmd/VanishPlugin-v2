@@ -1,0 +1,15 @@
+name: VanishPlugin
+version: '1.20.1-v1.0.0'
+main: de.philippcmd.vanishplugin.VanishPlugin
+api-version: '1.20'
+commands:
+  vanish:
+    permission: vanish.use
+    permission-message: You don't have permission to use this command.
+  vanish-show:
+    permission: vanish.show
+    permission-message: You don't have permission to use this command.
+  supervanish:
+    permission: vanish.supervanish
+    permission-message: You don't have permission to use this command.
+
